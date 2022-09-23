@@ -1,10 +1,3 @@
-# BlockSim Simultor
-
-## What is BlockSim Simulator?
-**BlockSim** is an open source blockchain simulator, capturing network, consensus and incentives layers of blockchain systems. BlockSim aims to provide simulation constructs that are intuitive, hide unnecessary detail and can be easily manipulated to be applied to a large set of blockchains design and deployment questions (related to performance, reliability, security or other properties of interest). At the core of BlockSim is a Base Model, which contains a number of functional blocks (e.g., blocks, transactions and nodes) common across blockchains, that can be extended and configured as suited for the system and study of interest. BlockSim is implemented in **Python**.
-
-For more details about BlockSim, we refer to our journal paper that can be freely accessed online https://www.frontiersin.org/articles/10.3389/fbloc.2020.00028/full
-
 ## Installation and Requirements
 
 Before you can use BlockSim  simulator, you need to have **Python version 3 or above** installed in your machine as well as have the following packages installed:
@@ -29,10 +22,4 @@ To run the simulator, one needs to trigger the main class *Main.py* either from 
 
 or using any Python editor such as Spyder.
 
-## Statistics and Results
 
-The results of the simulator is printed in an excel file at the end of the simulation. The results include the blockchain ledger, number of blocks mined, number of stale (uncles) blocks and the rewards gained by each miner etc. 
-
-## Contact
-
-For any query about how to use or even extend the simulator, feel free to contact me **alharbi.maher@gmail.com**
